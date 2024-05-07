@@ -1,0 +1,60 @@
+.header1{
+    background-color: #ded7d7fa;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 100%;
+    
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 0;
+    width: 120px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+    background-color: rgb(219, 196, 255);
+    
+}
+.p1{
+    color:black;
+    margin-left: 350px;
+    margin-top: 38px;
+    font-size: 50px;
+    font-weight: 150px;
+   }
+.pic-slogon{
+    width: 100%;
+    filter: blur(3px);
+    z-index: -1;
+    position: absolute;
+
+}
+.slogan{
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 30px;
+}
+
+.header-buttons{
+    margin-left: 950px;
+    border-color: white;
+    
+}
+.header-buttons,button{
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    background-color: #ded7d7fa ;
+    cursor: pointer;
+    font-size: 15px;
+}
+.hov:hover{
+    background-color: rgb(227, 232, 230);
+}
+
+
+
